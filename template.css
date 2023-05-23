@@ -132,7 +132,7 @@ a.color-link.active ,a.color-link{
     border:transparent;
     background-color: #7f7fb0;
     transform: translate(0px,-6px);
-    box-shadow: 3px 8px 15px #7f7fb0;
+    box-shadow: 0vh 1vh 1.3vh #7f7fb0;
     transition-duration: 0.3s;
     transition-timing-function: ease-in;
 
@@ -156,9 +156,5 @@ a.color-link.active ,a.color-link{
     transform: translate(6vw ,0vw);
     border-radius: 2vw;
     border-top-right-radius: 0;
-}
-
-#sample:hover + .product-description{
-    display: none;
 }
 
